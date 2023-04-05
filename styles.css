@@ -61,18 +61,32 @@ body {
     height: fit-content;
     max-width: 800px;
     margin: 16px auto 0;
+    gap:16px;
+}
+.__group_inputs {
+    display: flex;
+    align-items:stretch;
+    width: 100%;
+    gap: 16px;
 }
 .__input {
     display: flex;
+    width: 100%;
     flex-flow: column wrap;
     max-width:300px;
+}
+.__group_inputs .__input {
+    max-width: 100%;
+
 }
 .__input label {
     font-size:12px;
     font-weight: 500;
+    margin-bottom: 5px;
 }
 .__input input {
-    min-height: 25px;
+    width: 100%;
+    min-height: 40px;
     padding: 5px;
     border-radius:5px;
     outline: none;
@@ -84,4 +98,29 @@ body {
 }
 .__input input:focus {
     border-color:#1A73E8;
+}
+.__tab {
+    border-radius: 10px;
+    max-width:300px;
+    height: 40px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: stretch;
+}
+.__tab_item {
+    width: 100%;
+    outline: none;
+    background: transparent;
+    border:1px solid #dddbdb;
+    
+}
+.__tab_item:hover {
+    background: #fffdbe;
+    cursor: pointer;
+}
+.__tab .__tab_item:first-child {
+    border-radius: 8px 0 0 8px;
+}
+.__tab .__tab_item:last-child {
+    border-radius: 0 8px 8px 0;
 }

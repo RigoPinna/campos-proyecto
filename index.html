@@ -30,9 +30,35 @@
                 <!-- <label for="tentacles">Number of tentacles (10-100):</label>
                 <input type="number" id="tentacles" name="tentacles"
                     min="10" max="100"> -->
-                <div class="__input">
-                    <label for="referencia">Referencia</label>
-                    <input type="text" id="referencia" name="referencia" placeholder="M00"/>
+                <div class="__group_inputs">
+                    <div class="__input">
+                        <label for="referencia">Referencia</label>
+                        <input type="text" id="referencia" name="referencia" placeholder="M00"/>
+                    </div>
+                    <div class="__input">
+                        <label for="ubicacion">Ubicación</label>
+                        <input type="text" id="ubicacion" name="ubicacion" placeholder="M00"/>
+                    </div>
+                </div>
+                <div class="__group_inputs">
+                    <div class="__input">
+                        <label for="ancho">Ancho(mm)*</label>
+                        <input type="number" id="ancho" name="ancho" placeholder="1000"/>
+                    </div>
+                    <div class="__input">
+                        <label for="alto">Alto (mm)*</label>
+                        <input type="number" id="alto" name="alto" placeholder="1000"/>
+                    </div>
+                    <div class="__input">
+                        <label for="alto">Cantidad*</label>
+                        <input type="number" id="alto" name="alto" placeholder="1" value="1"/>
+                    </div>
+                </div>
+                <div class="__tab">
+                    <button class="__tab_item">Lateral</button>
+                    <button class="__tab_item">Central</button>
+                    <button class="__tab_item">Fijo</button>
+                    <button class="__tab_item">Vertical</button>
                 </div>
             </form>
         </section>
