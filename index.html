@@ -55,10 +55,90 @@
                     </div>
                 </div>
                 <div class="__tab">
-                    <button class="__tab_item">Lateral</button>
-                    <button class="__tab_item">Central</button>
-                    <button class="__tab_item">Fijo</button>
-                    <button class="__tab_item">Vertical</button>
+                    <label id="lateral" class="__tab_item"> 
+                        <input type="radio" name="type" id="lateral" checked> 
+                        Lateral
+                    </label>
+                    <label id="central" class="__tab_item"> 
+                        <input type="radio" name="type" id="central"> 
+                        Central
+                    </label>
+                    <label id="fijo" class="__tab_item"> 
+                        <input type="radio" name="type" id="fijo"> 
+                        Fijo
+                    </label>
+                    <label id="vertical" class="__tab_item"> 
+                        <input type="radio" name="type" id="vertical"> 
+                        Vertical
+                    </label>
+                </div>
+                <div id="__tab_content_lateral" class="__tab_content">
+                    <label for="op1-l" class="__tab_content_item">
+                        <span class="__item_description">
+                            <input type="radio" name="model" id="op1-l" value="23000" checked>
+                            <span>lateral</span>
+                        </span>
+                        <span class="__item_price">$ 23,000</span>
+                    </label>
+
+                </div>
+                <div id="__tab_content_central" class="__tab_content">
+                    <label for="op1-c" class="__tab_content_item">
+                        <span class="__item_description">
+                            <input type="radio" name="model" id="op1-c" value="23000">
+                            <span>Central</span>
+                        </span>
+                        <span class="__item_price">$ 23,000</span>
+                    </label>
+                    <label for="op2-c" class="__tab_content_item">
+                        <span class="__item_description">
+                            <input type="radio" name="model" id="op2-c" value="23000">
+                            <span>Nombre</span>
+                        </span>
+                        <span class="__item_price">$ 23,000</span>
+                    </label>
+
+                </div>
+                <div id="__tab_content_fijo" class="__tab_content">
+                    <label for="op1-f" class="__tab_content_item">
+                        <span class="__item_description">
+                            <input type="radio" name="model" id="op1-f" value="23000">
+                            <span>fijo</span>
+                        </span>
+                        <span class="__item_price">$ 23,000</span>
+                    </label>
+                    <label for="op2-f" class="__tab_content_item">
+                        <span class="__item_description">
+                            <input type="radio" name="model" id="op2-f" value="23000">
+                            <span>Nombre</span>
+                        </span>
+                        <span class="__item_price">$ 23,000</span>
+                    </label>
+
+                </div>
+                <div id="__tab_content_vertical" class="__tab_content">
+                    <label for="op1-v" class="__tab_content_item">
+                        <span class="__item_description">
+                            <input type="radio" name="model" id="op1-v" value="23000">
+                            <span>vertical</span>
+                        </span>
+                        <span class="__item_price">$ 23,000</span>
+                    </label>
+                    <label for="op2-v" class="__tab_content_item">
+                        <span class="__item_description">
+                            <input type="radio" name="model" id="op2-v" value="23000">
+                            <span>Nombre</span>
+                        </span>
+                        <span class="__item_price">$ 23,000</span>
+                    </label>
+                </div>
+                <h4>Color de mosquitero</h4>
+                <div class="__product_color_wrapper">
+                    <label for="c-1" class="__product_color_item">
+                        <input type="radio" name="color" id="c-1" value="nombre-color">
+                        <span class="__product_color_item_demo" style="background:#000;"></span>
+                        <span>Negro</span>
+                    </label>
                 </div>
             </form>
         </section>
